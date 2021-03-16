@@ -1,0 +1,11 @@
+{
+  "name": "@pwd2021/tp4-namespaces",
+  "version": "1.0.0",
+  "description": "Curza: PWD2021 - TP4 Namespaces",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@prettier/plugin-php": "^0.16.1",
+    "prettier": "^2.2.1"
+  }
+}

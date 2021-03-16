@@ -1,0 +1,11 @@
+{
+  "name": "pwd2021/tp4-namespaces",
+  "description": "Curza: PWD2021 - TP4 Namespaces",
+  "type": "project",
+  "license": "MIT",
+  "scripts": {
+    "test": "php test.php"
+  },
+  "minimum-stability": "stable",
+  "require": {}
+}
