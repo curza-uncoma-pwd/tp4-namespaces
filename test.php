@@ -2,7 +2,7 @@
 
 require_once __DIR__ . '/env.php';
 
-use Src\Principal;
+use Raiz\Principal;
 
 $principal = new Principal();
 $resultado = $principal->validar();

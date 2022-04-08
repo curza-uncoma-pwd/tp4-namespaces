@@ -4,8 +4,12 @@
 
   // List of extensions which should be recommended for users of this workspace.
   "recommendations": [
-    "felixfbecker.php-debug",
-    "bmewburn.vscode-intelephense-client"
+    "bmewburn.vscode-intelephense-client",
+    "esbenp.prettier-vscode",
+    "swordev.phpstan",
+    "mhutchie.git-graph",
+    "johnsoncodehk.volar",
+    "xdebug.php-debug"
   ],
   // List of extensions recommended by VS Code that should not be recommended for users of this workspace.
   "unwantedRecommendations": []

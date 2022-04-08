@@ -1,4 +1,4 @@
-# PWD2021 TP4: Namespaces
+# PWD2022 TP4: Namespaces
 
 - Link a la teoría: [https://hackmd.io/@lgraziani2712/SkfXjHRQ\_](https://hackmd.io/@lgraziani2712/SkfXjHRQ_)
 
@@ -15,11 +15,11 @@ El objetivo de este práctico es introducirles en el concepto de namespaces (o e
 
 ## Objetivos del práctico
 
-- Agregar la configuración adecuada en el archivo `composer.json` para poder utilizar la carpeta `src` como carpeta raíz del namespace `Src`.
+- Agregar la configuración adecuada en el archivo `composer.json` para poder utilizar la carpeta `src` como carpeta raíz del namespace `Raiz`.
 - Crear los siguientes archivos a partir de los namespaces definidos a continuación:
-  1. La clase `Principal` del namespace `Src`.
-  2. La clase `Termo` del namespace `Src\Modelos`. Debe definir un método público `validar` que devuelva `true`.
-  3. La clase `TermoConstructor` del namespace `Src\Constructores`. Debe definir un método público `validar` que devuelva `true`.
+  1. La clase `Principal` del namespace `Raiz`.
+  2. La clase `Termo` del namespace `Raiz\Modelos`. Debe definir un método público `validar` que devuelva `true`.
+  3. La clase `TermoConstructor` del namespace `Raiz\Constructores`. Debe definir un método público `validar` que devuelva `true`.
 - Importar las clases `Termo` y `TermoConstructor` en la clase `Principal`.
 - Definir dos atributos privados en la clase `Principal` para almacenar instancias de esas dos clases. Deben estar correctamente tipadas.
 - Definir el constructor para la clase `Principal` donde cree las instancias de las otras dos clases y las guarde en los atributos correspondientes.
